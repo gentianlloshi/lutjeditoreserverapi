@@ -1,14 +1,15 @@
 {
   "name": "projekti-api-lokal",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["prayer", "api", "islamic", "albanian", "dua"],
+  "author": "Gentian Lloshi",
   "license": "ISC",
-  "description": "",
+  "description": "A Node.js Express server providing an API for Albanian Islamic prayers, compatible with the QuotableAPI format",
   "dependencies": {
     "express": "^5.1.0"
   }
